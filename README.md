@@ -4,7 +4,7 @@ Camera C3WN (model CS-CV310 (A0-1C2WFR)(4mm)) by EZVIZ setup in 'tinyCam PRO' An
 This is how I setup 'tinyCam PRO' Android app to work with my camera C3WN of Ezviz:
 1. Name: Any name you wish
 2. Vendor: Hikvision
-3. Model: DC-2CD2012-I
+3. Model: DC-2CD2012-I (Camera model was selected the first from cameras list)
 4. Hostname: 192.168.1.7 [or any IP you wish, make it static in your LAN]
 5. Web port: 8000
 6. Protocol: RTSP over TCP
@@ -12,9 +12,6 @@ This is how I setup 'tinyCam PRO' Android app to work with my camera C3WN of Ezv
 8. HTTPS: no
 9. Username: admin
 10. Password: [camerapassword]
-
-
-Camera model was selected the first from cameras list.
 
 # Enable RTSP on your camera
 The local RTSP server on your camera needs to be enabled. To do that:
